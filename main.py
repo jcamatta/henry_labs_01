@@ -8,13 +8,9 @@ from modelo import recomendar # importamos la funcion para recomendar
 df = pd.read_csv('./data/latest.csv')
 vocab = pd.read_csv('./data/latest_vocab.csv')
 
-# llenamos los espacios vacios con []
-df.overview_keywords = df.overview_keywords.fillna('[]')
-
 # convertimos string de listas a listas
 columnas_lista = ['belongs_to_collection', 'genres', 'production_companies',
-                  'production_countries', 'spoken_languages', 'production_countries_iso',
-                  'spoken_languages_iso', 'overview_keywords']
+                  'production_countries', 'spoken_languages']
 
 for c in columnas_lista:
     df[c] = df[c].apply(ast.literal_eval)
