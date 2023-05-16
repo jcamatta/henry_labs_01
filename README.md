@@ -27,7 +27,7 @@ La carpeta code contiene los codigos que corresponden al ETL y EDA realizado.
 Para aquellos con muy poca paciencia, explico a continuacion como hacer uso del sistema de recomendacion.
 ### DESCRIPCION DE LA API
 
-A traves del siguiente base url https://henry-labs-01.onrender.com/ pueden acceder a la API.
+A traves del siguiente base url https://jcamatta-labs-01.onrender.com/ pueden acceder a la API.
 
 La API contiene 7 endpoints, los cuales retornan un diccionario.
 
@@ -44,16 +44,16 @@ Detallare cada uno brevemente:
 
 #### EJEMPLO DE USO:
 Por ejemplo: si se quisiera saber las recomendaciones para la pelicula "toy story" se debera ingresar como url lo siguiente:
-https://henry-labs-01.onrender.com/recomendacion/toy%20story (%20 es el caracter asociado al espacio).
+https://jcamatta-labs-01.onrender.com/recomendacion/toy%20story (%20 es el caracter asociado al espacio).
 
 Otro ejemplo: si quiero conocer cuantas peliculas fueron producidas por Argentina, debere ingresar:
 
-https://henry-labs-01.onrender.com/peliculas_pais/argentina
+https://jcamatta-labs-01.onrender.com/peliculas_pais/argentina
 
 #### RECOMENDACIONES:
 A pesar de los ejemplos, recomiendo encarecidamente que hagan uso de la API a traves del siguiente URL:
 
-https://henry-labs-01.onrender.com/docs
+https://jcamatta-labs-01.onrender.com/docs
 
 En ella, entraran a la documentacion interactiva de la API creada automaticamente, lo cual facilita enormemente su uso.
 
